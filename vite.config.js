@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
-    host: true  // Expose on network so it can be accessed via IP from other devices
+    host: true,  // Expose on network so it can be accessed via IP from other devices
+    allowedHosts: true
   }
 })
